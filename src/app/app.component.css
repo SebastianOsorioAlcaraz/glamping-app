@@ -292,3 +292,78 @@ svg#clouds {
     visibility: hidden;
   }
 }
+
+.container{
+
+
+  background-image: url("../assets/Fondo (1).png") ;
+  background-size: cover;
+  background-color: #333333;
+
+ min-width: 100vw;
+  margin-top: 10px;
+  padding-top: 100px;
+
+}
+
+#header{
+  background-color: #03510e;
+  height: 80px;
+}
+
+
+
+.componente{
+  background-color: black;
+  height: 250px;
+  opacity: 0.5;
+
+
+
+
+}
+
+
+
+#calendario{
+  height: 14rem;
+  border-radius: 30px;
+  color: white;
+  width: 20%;
+  height: 50%;
+}
+
+
+#footer{
+  background-color: #03510e;
+  height: 9rem;
+
+
+
+}
+
+.logo{
+  margin-right: 880px;
+}
+
+#desplegable{
+  height: 14rem;
+  border-radius: 30px;
+  color: white;
+  width: 20%;
+  height: 50%;
+}
+
+#cajacomponentes{
+  margin: 260px;
+  margin-top: 30px;
+}
+
+#Postal{
+  background-image: url("../assets/Postal.png") ;
+  background-size: cover;
+}
+
+#InputPostal{
+
+}

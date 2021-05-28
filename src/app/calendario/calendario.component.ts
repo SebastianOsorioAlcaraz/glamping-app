@@ -8,8 +8,8 @@ import {FormGroup, FormControl} from '@angular/forms';
 })
 export class CalendarioComponent implements OnInit {
   range = new FormGroup({
-    start: new FormControl(),
-    end: new FormControl()
+    llegada: new FormControl(),
+    salida: new FormControl()
   });
   constructor() { }
 

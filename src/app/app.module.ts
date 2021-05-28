@@ -8,12 +8,17 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import { CalendarioComponent } from './calendario/calendario.component';
 import {MatNativeDateModule} from '@angular/material/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatSelectModule} from '@angular/material/select';
+import { DesplegableComponent } from './desplegable/desplegable.component';
+import { PostalComponent } from './postal/postal.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CalendarioComponent,
+    DesplegableComponent,
+    PostalComponent,
 
   ],
   imports: [
@@ -24,7 +29,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatDatepickerModule,
     MatNativeDateModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatSelectModule
 
 
   ],

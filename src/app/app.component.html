@@ -1,14 +1,80 @@
-<div class="row">
-  <div class="col">
-  <app-calendario></app-calendario>
-  </div>
-  <div class="col">
-    Esta es la segunda columna
-  </div>
-  <div class="col">
-    <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
-  </div>
-</div>
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-12 position-absolute top-0 start-0" id="header">
+        <img alt="logo" class="logo" src="../assets/Logo Glamping.png" height="70" width="196"/>
+      </div>
+    </div>
+
+        <div class="row">
+          <div class="col-8 mx-auto mt-3">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img src="../assets/C1.png" class="d-block w-100 " alt="Glamping1"/>
+                </div>
+                <div class="carousel-item  active">
+                  <img src="../assets/C2.png" class="d-block w-100" alt="Glamping2"/>
+                </div>
+                <div class="carousel-item">
+                  <img src="../assets/C3.png" class="d-block w-100" alt="Glamping3"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="row text-center" id="cajacomponentes">
+              <div class="col-4 componente mx-auto ">
+                  Componente 1
+              </div>
+             <div class="col-4 componente mx-auto" id="calendario">
+              <app-calendario></app-calendario>
+             </div>
+              <div class="col-4 componente mx-auto" id="desplegable">
+                <app-desplegable></app-desplegable>
+            </div>
+            <div class="col-5 text-end mt-5">
+              <div>
+                <form class="example-form">
+                  <mat-form-field class="example-full-width">
+                    <mat-label>Escribe tu mensaje aquí</mat-label>
+                    <label>
+                      <input matInput placeholder="Ejemplo saludos..." value="Sushi" [(ngModel)]="user.name" name="nombre">
+                    </label>
+                  </mat-form-field>
+                </form>git add .
+              </div>
+            </div>
+            <div class="col-6 mt-5 componente" id="Postal">
+              <div> {{user.name}}</div>
+            </div>
+
+        </div>
+
+
+
+    <div class="row ">
+      <div class="col-12 fixed-bottom" id="footer">
+          Footer
+      </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
 
 
 
