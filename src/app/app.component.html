@@ -1,9 +1,17 @@
-
-
 <div class="container">
     <div class="row">
       <div class="col-12 position-absolute top-0 start-0" id="header">
         <img alt="logo" class="logo" src="../assets/Logo Glamping.png" height="70" width="196"/>
+        <div>
+          <form class="example-form">
+            <mat-form-field class="example-full-width">
+              <mat-label>Tu nombre</mat-label>
+              <label>
+                <input matInput placeholder="Ex. Felipe" value="Sushi" [(ngModel)]="user.name" name="Nombre">
+              </label>
+            </mat-form-field>
+          </form>
+        </div>
       </div>
     </div>
 
@@ -24,17 +32,19 @@
             </div>
           </div>
         </div>
-
-
+  <br>
+  <div style="color: #00ccb3"><h1>{{user.name}} ¡Arma tu plan!</h1></div>
           <div class="row text-center" id="cajacomponentes">
               <div class="col-4 componente mx-auto ">
-                  Componente 1
+                  <app-tarjeta></app-tarjeta>
               </div>
              <div class="col-4 componente mx-auto" id="calendario">
               <app-calendario></app-calendario>
+              <app-nocturnas></app-nocturnas>
              </div>
               <div class="col-4 componente mx-auto" id="desplegable">
                 <app-desplegable></app-desplegable>
+                <app-diurnas></app-diurnas>
             </div>
             <div class="col-5 text-end mt-5">
               <div>
@@ -42,14 +52,15 @@
                   <mat-form-field class="example-full-width">
                     <mat-label>Escribe tu mensaje aquí</mat-label>
                     <label>
-                      <input matInput placeholder="Ejemplo saludos..." value="Sushi" [(ngModel)]="user.name" name="nombre">
+                      <input matInput placeholder="Ejemplo saludos..." value="Sushi" [(ngModel)]="user.text" name="texto">
                     </label>
                   </mat-form-field>
                 </form>git add .
               </div>
             </div>
             <div class="col-6 mt-5 componente" id="Postal">
-              <div> {{user.name}}</div>
+              <br>
+              <div style="color: #006067"><h2>{{user.text}}</h2></div>
             </div>
 
         </div>

@@ -1,0 +1,9 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://image.freepik.com/foto-gratis/glamping-verde-concepto-estilo-vida-acogedor-camping-glamping-vacaciones-vacaciones_102618-2045.jpg');
+  background-size: cover;
+}
+

@@ -1,0 +1,14 @@
+<h2 [style.color]="color">Actividades</h2>
+<div [hidden]="escondido">
+  <mat-radio-group aria-label="Select an option">
+    <mat-radio-button value="1">Fogata</mat-radio-button><br>
+    <mat-radio-button value="2">Astronomía</mat-radio-button><br>
+    <mat-radio-button value="3">Alborada</mat-radio-button><br>
+    <mat-radio-button value="4">Jacuzzi</mat-radio-button><br>
+  </mat-radio-group>
+  <br>
+</div>
+<div>
+  <button type="button" class="btn btn-info" (click)="pulsado($event)">Nocturnas</button>
+</div>
+<br>

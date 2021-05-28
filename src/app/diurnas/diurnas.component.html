@@ -1,0 +1,16 @@
+<h2 [style.color]="color">Actividades</h2>
+<div [hidden]="escondido">
+  <mat-radio-group aria-label="Select an option">
+    <mat-radio-button value="1">Caminata</mat-radio-button><br>
+    <mat-radio-button value="2">Yoga</mat-radio-button><br>
+    <mat-radio-button value="3">Escalada</mat-radio-button><br>
+    <mat-radio-button value="4">Cabalgata</mat-radio-button><br>
+    <mat-radio-button value="5">Cuatrimoto</mat-radio-button><br>
+    <mat-radio-button value="5">Masajes</mat-radio-button><br>
+  </mat-radio-group>
+  <br>
+</div>
+<div>
+  <button type="button" class="btn btn-info" (click)="pulsado($event)">Diurnas</button>
+</div>
+<br>

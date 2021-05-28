@@ -11,6 +11,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatSelectModule} from '@angular/material/select';
 import { DesplegableComponent } from './desplegable/desplegable.component';
 import { PostalComponent } from './postal/postal.component';
+import { TarjetaComponent } from './tarjeta/tarjeta.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatRadioModule} from '@angular/material/radio';
+import { DiurnasComponent } from './diurnas/diurnas.component';
+import { NocturnasComponent } from './nocturnas/nocturnas.component';
+import { NombreComponent } from './nombre/nombre.component';
 
 
 @NgModule({
@@ -19,6 +25,11 @@ import { PostalComponent } from './postal/postal.component';
     CalendarioComponent,
     DesplegableComponent,
     PostalComponent,
+    TarjetaComponent,
+    DiurnasComponent,
+    NocturnasComponent,
+    NombreComponent,
+
 
   ],
   imports: [
@@ -30,7 +41,10 @@ import { PostalComponent } from './postal/postal.component';
     MatNativeDateModule,
     FormsModule,
     ReactiveFormsModule,
-    MatSelectModule
+    MatSelectModule,
+    MatCardModule,
+    MatRadioModule,
+
 
 
   ],

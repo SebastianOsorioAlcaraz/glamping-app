@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./desplegable.component.css']
 })
 export class DesplegableComponent implements OnInit {
-  color = 'orange';
+  color = '#00ccb3';
   constructor() { }
 
   ngOnInit(): void {

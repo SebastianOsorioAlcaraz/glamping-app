@@ -7,8 +7,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
+h1{
+  text-align: center;
+  font-family: "Arial Black";
+  font-style: strong;
+  font-size: 40px;
+  color: ##00ccb3;
+  letter-spacing: 0pt;
+  line-height: 30pt;
+},
+h2{
+  text-align: center;
+  font-family: "Arial Black";
+  font-style: strong;
+  font-size: 40px;
+  color: #006067;
+  letter-spacing: 0pt;
+  line-height: 16pt;
+},
 h3,
 h4,
 h5,
@@ -307,8 +323,9 @@ svg#clouds {
 }
 
 #header{
-  background-color: #03510e;
-  height: 80px;
+  align-content: center;
+  background-color: #006067;
+  height: 120px;
 }
 
 
@@ -335,7 +352,7 @@ svg#clouds {
 
 
 #footer{
-  background-color: #03510e;
+  background-color: #006067;
   height: 9rem;
 
 
